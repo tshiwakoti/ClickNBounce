@@ -6,7 +6,7 @@ class Controller extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-		$this->output->enable_profiler();
+		//$this->output->enable_profiler();
 		$this->load->library('session');
 		$this->load->library('googlemaps');
 		$this->load->library('form_validation');
